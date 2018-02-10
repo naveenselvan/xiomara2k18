@@ -1,3 +1,5 @@
+# Given x , we need to find the numbers less than x such that (a xor x) > x where 1<=a<x
+# Constrict time as much as possible as the solution given here takes (r * log n) time , where r is the number of test cases.
 from random import randint
 import random as rand
 from pythonds.basic.stack import Stack
