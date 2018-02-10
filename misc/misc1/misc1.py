@@ -53,9 +53,8 @@ for u in range(1,11):
 		initpty=i[1]
 	sum+=point[n,m]
 	sum=int(sum)
-	print sum
 	ans=input()
 	if ans!=sum:
 		print 'Wrong answer , no flag here!!'
 		exit(0)
-print 'Congrats the flag is blah blah'
+print 'Congrats the flag is xiomara{recursion_is_better_than_iteration}'
