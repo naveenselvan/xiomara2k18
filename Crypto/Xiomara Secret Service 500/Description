@@ -1,0 +1,8 @@
+Hello Agent! The FBI and the NSA are up for a secret mission. Buckle up your belt and be ready to crack their 'secret'!
+
+They have first planned to share a number, S using Diffie Hellman key exchange. Then, the secret is generated as follows:
+	    
+	    key = SHA1(str(S))[0:16]
+	    secret = hex(iv + AES_CBC(iv, key, flag))
+
+There are 20 servers between them, through which all the traffic flows. Once you connect to our Xiomara secret service, we'll get you one of their servers compromised. You can intercept the traffic once it reaches our compromised server, and inject new payloads altogether using the 'Ctrl+C' key.
