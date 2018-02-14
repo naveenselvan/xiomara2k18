@@ -1,0 +1,4 @@
+Jump: x
+go up : Up arrow
+go left : left arrow
+go right :right arrow
