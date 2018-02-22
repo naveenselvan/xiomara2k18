@@ -3,6 +3,12 @@ import random as rand
 from pythonds.basic.stack import Stack
 import numpy
 import sys
+import signal
+def handler(signum, frame):
+	print 'Time\'s up!!'
+	exit(0)
+signal.signal(signal.SIGALRM, handler)
+signal.alarm(5)
 def Xor(x):
 	sum=0
 	i=0
