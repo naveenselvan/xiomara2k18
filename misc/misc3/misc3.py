@@ -21,8 +21,6 @@ def Xor(x):
 		i=i+1
 	return sum
 print """
-	Welcome again challenger!!
-	Our Young Mario was dreaming about Xors when he was struck with a question.Help him solve his question.
 	
  Question:	
 	Given x , we need to find the numbers less than x such that (p xor x) > x where 1<=p<x
