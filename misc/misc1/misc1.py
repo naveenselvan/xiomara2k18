@@ -11,7 +11,21 @@ def dp(startx,starty,endx,endy):
 		num2=dp(startx,starty+1,endx,endy)
 	return max(point[startx,starty]+num1,point[startx,starty]+num2)
 print """ Welcome Challengers!!
+  Young mario is stuck in a maze with full of chocolates with different taste levels.The only possible movements are right and down. 
+  You are given a matrix of size n,m with tastiness level of each block as b[i][j] starting with index (1,1) you need to start from vertex
+  (1,1) and end on (n,m) .Print the maximum tastiness level our young mario can achieve!
+	Input format:
+	Line one:Two numbers n,m i.e, the no of rows and columns respectively.
+	Next N lines with M elements each specifying the tastiness of each cell.
+	Line N+2: Number of checkpoints to be compulsarily crossed (Say j)
+	The next j lines printing the coordinates of the checkpoints.(Coordinates start with (1,1))
 
+	Note!!
+	You have 10 Levels to win the game
+
+	Output:
+	Print the max tastiness achievable by Mario!
+"""
 for u in range(1,11):
 	print 'Level [',u,'/10 ]'
 	l=rand.sample(range(2, 60), 2)
@@ -41,6 +55,7 @@ for u in range(1,11):
 			count1=count1+1
 		count=count+1
 		print ''
+	print len(checkpoint)
 	for i in checkpoint:
 		for j in i:
 			print j,
