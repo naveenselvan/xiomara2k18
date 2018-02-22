@@ -1,0 +1,1 @@
+Young Mario was playing around with Android and wrongly built his app and crashed his app. Help him recover the flag he put in his server.
