@@ -10,6 +10,8 @@ def dp(startx,starty,endx,endy):
 	if starty<endy:
 		num2=dp(startx,starty+1,endx,endy)
 	return max(point[startx,starty]+num1,point[startx,starty]+num2)
+print """ Welcome Challengers!!
+
 for u in range(1,11):
 	print 'Level [',u,'/10 ]'
 	l=rand.sample(range(2, 60), 2)
@@ -53,7 +55,9 @@ for u in range(1,11):
 		initpty=i[1]
 	sum+=point[n,m]
 	sum=int(sum)
-	ans=input()
+	sys.stdout.flush()
+	ans=raw_input()
+	ans=int(ans)
 	if ans!=sum:
 		print 'Wrong answer , no flag here!!'
 		exit(0)
