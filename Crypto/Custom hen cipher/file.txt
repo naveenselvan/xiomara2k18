@@ -1,0 +1,22 @@
+custom cipher:
+consists of two parts 1st encryption using HEN encryption algorithm and then encode using a standard alphmetic puzzle
+
+the stardard alphametic puzzle used is {ZCUKZ+NPYFG=GFUKPH}
+
+HEN encryption:
+
+'size of plaintext' is number of alphabets in plaintext
+
+Multiply the position of alphabet (starting with one) with 'size of plaintext'  and do mod 26.
+now left shift the PT every alphabet with their corresponding value 
+
+
+Example for HEN encryption scheme:
+
+Plaintext : I_AM
+Size of plaintext : 3
+Ciphertext: F_UD
+
+
+
+ 
