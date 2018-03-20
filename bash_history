@@ -1404,3 +1404,4 @@ python -m SimpleHTTPServer 80
 ls
 history
 python -m SimpleHTTPServer 80
+docker run -p 8080:8080 -it webgoat/webgoat-8.0 /home/webgoat/start.sh 
